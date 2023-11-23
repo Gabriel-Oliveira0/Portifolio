@@ -294,6 +294,11 @@ form button:hover{
     border-radius: 16px;
 }
 
+.ctt2 {
+	border-radius: 2%;
+	background-color: #000;
+}
+
 @keyframes typing {
 	from {
 		width: 0;
@@ -719,6 +724,10 @@ form button:hover{
 		width: 80%;
 	}
 
+	#envioarq{
+		width: 450px;
+	}
+	
 }
 
 @media screen and (max-width: 700px) {
@@ -826,6 +835,10 @@ form button:hover{
 
 	#contato {
 		width: 80%;
+	}
+
+	#envioarq{
+		width: 400px;
 	}
 
 }
@@ -940,6 +953,10 @@ form button:hover{
 		width: 80%;
 	}
 
+	#envioarq{
+		width: 380px;
+	}
+
 }
 
 @media screen and (max-width: 600px) {
@@ -1042,6 +1059,10 @@ form button:hover{
 
 	#contato {
 		width: 80%;
+	}
+
+	#envioarq{
+		width: 320px;
 	}
 
 }
@@ -1189,6 +1210,10 @@ form button:hover{
 		width: 80%;
 	}
 
+	#envioarq{
+		width: 265px;
+	}
+
 }
 
 @media screen and (max-width: 450px) {
@@ -1334,6 +1359,10 @@ form button:hover{
 		width: 80%;
 	}
 
+	#envioarq{
+		width: 220px;
+	}
+
 }
 
 @media screen and (max-width: 400px) {
@@ -1469,6 +1498,22 @@ form button:hover{
 
 	#contato p {
 		font-size: 20px;
+	}
+
+	#envioarq{
+		width: 180px;
+	}
+
+	form label{
+		font-size: 14px;
+	}
+	
+	form input{
+		font-size: 10px;
+	}
+
+	form textarea{
+		font-size: 8px;
 	}
 
 }
@@ -1620,6 +1665,26 @@ form button:hover{
 		font-size: 17px;
 	}
 
+	#envioarq{
+		width: 140px;
+	}
+
+	form label{
+		font-size: 10px;
+	}
+	
+	form input{
+		font-size: 8px;
+	}
+
+	form textarea{
+		font-size: 8px;
+	}
+
+	form button{
+		font-size: 10px;
+	}
+
 }
 
 @media screen and (max-width: 300px) {
@@ -1769,6 +1834,32 @@ form button:hover{
 		font-size: 13px;
 	}
 
+	#envioarq{
+		width: 100px;
+	}
+
+	form label{
+		font-size: 10px;
+	}
+
+	form input{
+		position: relative;
+		left: -15px;
+		font-size: 8px;
+		width: 100px;	
+	}
+
+	form textarea{
+		position: relative;
+		left: -15px;
+		font-size: 8px;
+		width: 110px;
+	}
+
+	form button{
+		font-size: 10px;
+	}
+
 }
 
 @media screen and (max-width: 250px) {
@@ -1914,6 +2005,32 @@ form button:hover{
 
 	#contato p {
 		font-size: 11px;
+	}
+
+	#envioarq{
+		width: 60px;
+	}
+
+	form label{
+		font-size: 10px;
+	}
+
+	form input{
+		position: relative;
+		left: -33px;
+		font-size: 8px;
+		width: 100px;	
+	}
+
+	form textarea{
+		position: relative;
+		left: -33px;
+		font-size: 8px;
+		width: 110px;
+	}
+
+	form button{
+		font-size: 10px;
 	}
 
 }
