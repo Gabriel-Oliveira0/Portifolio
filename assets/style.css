@@ -4,7 +4,7 @@ html {
 
 body {
 	font-family: 'Montserrat', sans-serif;
-	background: linear-gradient(#000 20%, #565658);
+	background: linear-gradient(#000 20%, #565658 60%, #000 );
 }
 
 header {
@@ -209,20 +209,16 @@ ul {
 	transition: 400ms;
 }
 
-.link1:hover, .link2:hover {
-	opacity: 0.5;
-}
-
 #contato {
 	text-align: center;
 }
 
 #zapft {
-	width: 2%;
+	width: 3%;
 }
 
 #telft {
-	width: 2%;
+	width: 3%;
 }
 
 #nzap a {
@@ -241,21 +237,25 @@ ul {
     width: 500px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
+
 #envioarq h2{
     color: #f5f5f5;
     font-size: 2.5rem;
     margin: 2rem;
 }
+
 #envioarq form{
     display: flex;
     flex-direction: column;
     width: 100%;
 }
+
 form label{
     color: #f5f5f5;
     font-size: 17px;
     margin-bottom: 4px;
 }
+
 form input{
     padding: 15px;
     outline: none;
@@ -264,9 +264,11 @@ form input{
     font-size: 15px;
     transition: all 0.5s;
 }
+
 form input:focus{
     border-radius: 16px;
 }
+
 form textarea{
     padding: 10px;
     outline: none;
@@ -275,9 +277,11 @@ form textarea{
     margin-bottom: 30px;
     transition: all 0.5s;
 }
+
 form textarea:focus{
     border-radius: 16px;
 }
+
 form button{
     padding: 15px;
     cursor: pointer;
@@ -288,6 +292,7 @@ form button{
     transition: all 1s;
     margin-bottom: 20px;
 }
+
 form button:hover{
     background: #f5f5f5;
     color: #101026;
@@ -297,6 +302,15 @@ form button:hover{
 .ctt2 {
 	border-radius: 2%;
 	background-color: #000;
+}
+
+#gmail {
+	width: 3%;
+}
+
+footer p {
+	color: #FFF;
+	text-align: center;
 }
 
 @keyframes typing {
@@ -571,14 +585,9 @@ form button:hover{
 	
 	.nav-bar {
         padding: 1.5rem 4rem;
-
     }
 
     .nav-item {
-        display: none;
-    }
-
-    .login-button {
         display: none;
     }
 
@@ -1087,6 +1096,7 @@ form button:hover{
 
 	#inicio {
 		width: 80%;
+		height: 450px;
 	}
 
 	#inicio img {
@@ -1194,6 +1204,36 @@ form button:hover{
 
 	#projetos {
 		width: 80%;
+		display: flex;
+        flex-direction: column;
+        text-align: center;
+		height: 1050px;
+	}
+
+	.projlist {
+		width: 100%;
+		display: flex;
+        flex-direction: column;
+        text-align: center;
+	}
+
+	.projlist p {
+		color: #FFF;
+	}
+
+	#proj1 {
+		width: 80%;
+		border-radius: 3px;
+		background-color: #5f5f5f;
+		box-shadow: 20px 20px 20px #000;
+		
+	}
+
+	#proj2, #proj3 {
+		width: 80%;
+		border-radius: 3px;
+		background-color: #5f5f5f;
+		box-shadow: 20px 20px 20px #000;
 	}
 
 	#projetos p {
@@ -1206,12 +1246,33 @@ form button:hover{
 		right: 1px;
 	}
 
+	.projlist li {
+		margin-bottom: 50px;
+	}
+
 	#contato {
 		width: 80%;
 	}
 
 	#envioarq{
 		width: 265px;
+		box-shadow: 20px 20px 20px #000;
+	}
+
+	#infosctt p {
+		font-size: 13px;
+	}
+
+	#zapft, #telft {
+		width: 5%;
+		position: absolute;
+		left: 110px;
+	}
+
+	#gmail {
+		width: 5%;
+		position: absolute;
+		left: 60px;
 	}
 
 }
@@ -1286,6 +1347,7 @@ form button:hover{
 
 	#mid1 {
 		width: 80%;
+		height: 100px;
 	}
 
 	#mid1 p {
@@ -1295,6 +1357,7 @@ form button:hover{
 
 	#skills {
 		width: 80%;
+		height: 600px;
 	}
 
 	#skills p {
@@ -1343,6 +1406,7 @@ form button:hover{
 
 	#projetos {
 		width: 80%;
+		height: 950px;
 	}
 
 	#projetos p {
@@ -1359,8 +1423,46 @@ form button:hover{
 		width: 80%;
 	}
 
+	#envioarq form input[type="text"],
+	#envioarq form input[type="email"],
+	#envioarq form textarea {
+		width: 100%;
+		height: 25px;
+		padding: 8px; 
+		box-sizing: border-box;
+		margin-bottom: 10px; 
+	}
+
+	#envioarq form textarea {
+		height: 170px;
+	}
+
 	#envioarq{
 		width: 220px;
+	}
+
+	form label{
+		font-size: 14px;
+	}
+
+	form input{
+		font-size: 11px;
+	}
+
+	form textarea{
+		font-size: 11px;
+	}
+
+	#zapft, #telft {
+		width: 5%;
+		position: absolute;
+		left: 85px;
+	}
+
+	#gmail {
+		width: 5%;
+		position: absolute;
+		left: 40px;
 	}
 
 }
@@ -1479,7 +1581,7 @@ form button:hover{
 	}
 
 	#projetos {
-		width: 80%;
+		width: 90%;
 	}
 
 	#projetos p {
@@ -1497,7 +1599,7 @@ form button:hover{
 	}
 
 	#contato p {
-		font-size: 20px;
+		font-size: 12px;
 	}
 
 	#envioarq{
@@ -1505,7 +1607,7 @@ form button:hover{
 	}
 
 	form label{
-		font-size: 14px;
+		font-size: 12px;
 	}
 	
 	form input{
@@ -1513,7 +1615,19 @@ form button:hover{
 	}
 
 	form textarea{
-		font-size: 8px;
+		font-size: 10px;
+	}
+
+	#zapft, #telft {
+		width: 5%;
+		position: absolute;
+		left: 75px;
+	}
+
+	#gmail {
+		width: 5%;
+		position: absolute;
+		left: 30px;
 	}
 
 }
@@ -1538,6 +1652,7 @@ form button:hover{
 
 	#inicio {
 		width: 80%;
+		height: 390px;
 	}
 
 	#inicio img {
@@ -1597,6 +1712,7 @@ form button:hover{
 
 	#skills {
 		width: 80%;
+		height: 500px;
 	}
 
 	#skills p {
@@ -1645,6 +1761,7 @@ form button:hover{
 
 	#projetos {
 		width: 80%;
+		height: 780px;
 	}
 
 	#projetos p {
@@ -1683,6 +1800,18 @@ form button:hover{
 
 	form button{
 		font-size: 10px;
+	}
+
+	#infosctt p {
+		font-size: 10px;
+	}
+
+	#zapft, #telft {
+		left: 65px;
+	}
+
+	#gmail {
+		left: 30px;
 	}
 
 }
@@ -1753,6 +1882,7 @@ form button:hover{
 
 	#mid1 {
 		width: 80%;
+		height: 10px;
 	}
 
 	#mid1 p {
@@ -1808,12 +1938,11 @@ form button:hover{
 		left: 60px;
 	}
 
-	#proj1 {
-		width: 35%;
-	}
+	
 
 	#projetos {
 		width: 80%;
+		height: 670px;
 	}
 
 	#projetos p {
@@ -1835,7 +1964,7 @@ form button:hover{
 	}
 
 	#envioarq{
-		width: 100px;
+		width: 110px;
 	}
 
 	form label{
@@ -1843,21 +1972,33 @@ form button:hover{
 	}
 
 	form input{
-		position: relative;
-		left: -15px;
 		font-size: 8px;
-		width: 100px;	
 	}
 
 	form textarea{
-		position: relative;
-		left: -15px;
 		font-size: 8px;
-		width: 110px;
 	}
 
 	form button{
 		font-size: 10px;
+	}
+
+	#infosctt p {
+		font-size: 8px;
+	}
+
+	#envioarq button {
+		height: 20px;
+		text-align: center;
+		padding: 0px;
+	}
+
+	#zapft, #telft {
+		left: 55px;
+	}
+
+	#gmail {
+		left: 30px;
 	}
 
 }
@@ -1865,15 +2006,15 @@ form button:hover{
 @media screen and (max-width: 250px) {
 
 	.mobile-menu-icon {
-		margin: 5px 0px 0px 50px;
+		margin: 10px 0px 0px 40px;
     }
 
 	.icon {
-		width: 50%;
+		width: 100%;
 	}
 
 	#logo {
-		width: 140%;
+		width: 150%;
 	}
 
 	.titulo-principal {
@@ -2033,4 +2174,204 @@ form button:hover{
 		font-size: 10px;
 	}
 
+}
+
+@media screen and (max-width: 250px) {
+
+	.mobile-menu-icon {
+		margin: 10px 0px 0px 60px;
+    }
+
+	.icon {
+		width: 500%;
+	}
+
+	#logo {
+		width: 500%;
+	}
+
+	.titulo-principal {
+		font-size: 9px;
+	}
+
+	#inicio {
+		width: 80%;
+		height: 350px;
+	}
+
+	#inicio p {
+		font-size: 9px;
+	}
+	
+	#pfts {
+		width: 60%;
+	}
+
+	#front {
+		text-align: center;
+		position: relative;
+		top: -60px;
+		border-left: solid #6c07be;
+	}
+
+	#ads1 {
+		text-align: center;
+		position: relative;
+		top: -120px;
+		border-left: solid #0764ce;
+	}
+
+	.links {
+		display: flex;
+		position: absolute;
+		top: 400px;
+		left: -10px;
+	}
+
+	.link1 {
+		width: 30%;
+	}
+
+	.link2 {
+		width: 55%;
+	}
+
+	#mid1 {
+		width: 80%;
+		height: 10px;
+	}
+
+	#mid1 p {
+		font-size: 9px;
+		margin: 0px 0px 0px 15px;
+	}
+
+	#skills {
+		width: 80%;
+	}
+
+	#skills p {
+		font-size: 8px;
+	}
+
+	.progress-bar {
+		width: 30%;
+	}
+
+	#html1 {
+		position: absolute;
+		top: 70px;
+		left: 50px;
+	}
+
+	#barrahtml {
+		position: absolute;
+		top: 125px;
+		left: 50px;
+	}
+
+	#css1 {
+		position: absolute;
+		top: 260px;
+		left: 50px;
+	}
+
+	#barracss {
+		position: absolute;
+		top: 340px;
+		left: 50px;
+	}
+
+	#java1 {
+		position: absolute;
+		top: 505px;
+		left: 50px;
+	}
+
+	#barrajs {
+		position: absolute;
+		top: 555px;
+		left: 50px;
+	}
+
+	#proj1 {
+		width: 80%;
+	}
+
+	#projetos {
+		width: 80%;
+		height: 550px;
+	}
+
+	#projetos p {
+		font-size: 9px;
+	}
+
+	.projlist {
+		position: absolute;
+		top: 130px;
+		right: 1px;
+	}
+
+	#contato {
+		width: 80%;
+	}
+
+	#contato p {
+		font-size: 11px;
+	}
+
+	#envioarq{
+		padding: 10px 45px;
+		width: 80px;
+	}
+	
+	#envioarq form{
+		width: 150%;
+	}
+	
+	form label{
+		font-size: 10px;
+		margin-bottom: 4px;
+	}
+	
+	form input{
+		margin-bottom: 20px;
+		font-size: 10px;
+		position: relative;
+		left: 1px;
+	}
+	
+	form input:focus{
+		border-radius: 16px;
+	}
+	
+	form textarea{
+		font-size: 10px;
+		margin-bottom: 30px;
+		position: relative;
+		left: 1px;
+	}
+	
+	form textarea:focus{
+		border-radius: 16px;
+	}
+	
+	form button{
+		padding: 15px;
+		font-size: 10px;
+		margin-bottom: 20px;
+	}
+	
+	#infosctt p {
+		font-size: 8px;
+	}
+
+	#zapft, #telft {
+		left: 45px;
+	}
+
+	#gmail {
+		left: 13px;
+	}
 }
