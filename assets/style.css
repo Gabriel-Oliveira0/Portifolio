@@ -141,7 +141,7 @@ header {
 
 #titulo-principal1 {
 	border-right: 2px solid #FFF;
-	animation: blinckCursor 500ms infinite normal, typing 3s steps(40) 1s normal;
+	animation: blinckCursor 500ms steps(40) infinite normal, typing 3s steps(40) 1s normal both;
 	white-space: nowrap;
 	overflow: hidden;
 	
@@ -318,7 +318,7 @@ footer p {
 		width: 0;
 	}
 	to {
-		width: 17em;
+		width: 16.6em;
 	}
 }
 
