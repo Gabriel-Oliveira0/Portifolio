@@ -62,7 +62,6 @@ header {
 	text-align: center;
 	font-size: 55px;
 	margin: 0 0 1em;
-	clear: left;
 	font-weight: bold;
 	color: #FFFFFF;
 }
@@ -144,7 +143,7 @@ header {
 	animation: blinckCursor 500ms steps(40) infinite normal, typing 3s steps(40) 1s normal both;
 	white-space: nowrap;
 	overflow: hidden;
-	
+	text-align: center;
 }
 
 ul {
@@ -344,6 +343,12 @@ footer p {
 
 	.titulo-principal {
 		font-size: 35px;
+		text-align: center;
+	}
+
+	#titulo-principal1 {
+		font-size: ;
+		text-align: center;
 	}
 
 	#inicio {
@@ -447,6 +452,26 @@ footer p {
 		position: absolute;
 		top: 500px;
 		left: 0px;
+	}
+
+	#titulo-principal1 {
+		border-right: none;
+		animation: none;
+		white-space: nowrap;
+		overflow: hidden;
+		text-align: center;
+		align-items: center;
+		align-content: center;
+	}
+
+	@keyframes typing {
+
+		from {
+			width: 0;
+		}
+		to {
+			width: 16.8em;
+		}
 	}
 
 }
